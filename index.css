@@ -180,4 +180,154 @@ visibility: hidden;
 .nav li a:hover {
   color: #c49029;
 }
- 
+
+.nav {
+  padding: 0 200px 0 0;
+}
+
+.searchWindo {
+  height: 40px;
+  display: inline-block;
+  float:right;
+  position: relative;
+}
+.search {
+  height: 34px;
+  width: 0px;
+  background: url(img/searchmagnifierinterfacesymbol1_79893.png) left center no-repeat;
+  background-size: 26px 26px;
+  padding-left: 30px;
+  font-size: 16px;
+  border: 1px solid #e0e0e0;
+  position: absolute;
+  right: 0;
+  top: -5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.search:focus {
+  width: 190px;
+  height: 34px;
+  border: 1px solid #e0e0e0;
+  background-color: white;
+  cursor: text;
+}
+
+.TopPage  {
+  height: 780px;
+}
+
+.TopPage p {
+  font-size: 27px;
+  color: #777777;
+  padding-top: 90px;
+}
+
+.MainPage {
+  height: 1440px;
+}
+.MainPage .container {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 150px;
+}
+.date {
+  float: left;
+  margin-right: 220px;
+  font-size: 16.8px;
+  color:#999999;
+  padding-top: 10px;
+  opacity: 0.5;
+}
+
+.date:hover {
+  opacity: 1;
+}
+
+.textarea {
+  width: 700px;
+  display: inline-block;
+}
+
+.textHeading {
+  color: #111111;
+  font-size: 22.4px;
+  padding-bottom: 20px;
+}
+.textHeading a:hover {
+  color: #c49029;
+}
+
+.text {
+  color: #666666;
+  font-size: 16.8px;
+}
+.textBox {
+  padding-bottom: 60px;
+}
+.pagelist li {
+  float: left;
+  font-size: 16.8px;
+  color:#777777;
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 8px 18px;
+  margin-left: 6px;
+  opacity: 0.5;
+}
+
+.pagelist li:hover {
+  opacity: 1;
+}
+
+
+
+.pagelist {
+  margin-left:320px;
+}
+
+.pagelist .this {
+  background-color: #EEEEEE;
+  color:#333333;
+  opacity: 1;
+}
+
+.profilepage {
+  height: 460px;
+}
+
+.photo {
+  border-radius: 50%;
+  height: 100px;
+  width: auto;
+  float: left;
+}
+
+.profile {
+  width: 300px;
+}
+
+.profiletext {
+  color: #666666;
+  font-size: 16.8px;
+  width: 260px;
+}
+
+.profileheading {
+  font-size: 19px;
+  padding: 20px 0 40px 20px;
+  display: inline-block;
+}
+
+.fab {
+  padding-right: 10px;
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+.fab:hover {
+  opacity: 1;
+}
+
